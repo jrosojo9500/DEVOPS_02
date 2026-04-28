@@ -7,7 +7,7 @@ WORKDIR /app
 # copy the requirements file into the image
 COPY ./requirements.txt ./
 
-# install the dependencies and packages in the requirements file
+#install the dependencies and packages in the requirements file
 RUN pip install -r requirements.txt
 
 # copy every content from the local file to the image
